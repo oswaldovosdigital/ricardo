@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./pc.css" media="(min-width: 930px)">
+    <link rel="stylesheet" href="./whatsapp/whatsapp.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+    <title>La_Casa_de_tus_Sueños | Inmobiliaria</title>
+</head>
+<body>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=5214792134030&text=Hola%20soy%20Ricardo!,%20Estoy%20para%20ayudarte%20a%20tener%20la%20casa%20de%20tus%20sue%C3%B1os,%20cuentame%20tu%20proyecto%20..." class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
+    <main>
+        <header class="header">
+            <nav class="nav">
+                <ul class="ul">
+                    <img  class="logo" src="./images/la Casa de mis Sueños_logo.png" alt="inmobiliaria">
+                    <li><p class="paragraph">Dejanos ayudarte a tener la casa que tanto haz deseado <hr></p></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="pc-version">
+
+            <section class="section-title">
+                <h1 class="titlte-h1">Casas en Venta en el Bajío</h1>
+                <p class="subtitle-p">¡El mejor momento para tener tu propio HOGAR es ahora!</p>
+                <img src="./images/tu_casa.jpg" alt="house" class="section-title-img">
+            </section>
+
+            <section class="form" >
+                <h4>Contáctame:</h4>
+                <form action="correos.php" method="POST">
+                    <input class="controls" type="text" name="nombre" id="nombres" placeholder="Nombre y Apellido" required>   
+                    <input class="controls" type="number" name="numero" id="numero" placeholder="Número" required>         
+                    <input class="controls" type="email" name="email" id="correo" placeholder="Correo" required>  
+                    <textarea class="text-area" name="mensaje" rows="10" cols="40" placeholder="Escribe tus comentarios..."></textarea>          
+                    
+                    <button class="botons" type="submit" > Enviar </button> 
+                </form> 
+                
+            </section>
+
+        </section>
+
+        <section class="cards-container">
+            <article class="card" >
+                <img src="./images/carmina_2_recamaras/3.jpg" alt="department" class="card-img" id="open">
+                <br>
+                <p class="card-description">Modelo Carmina 2 recamaras ......  FALTA AGREGAR MAS DESCRFIPCIÓN.........</p>
+                <!-- <a href="" class="card-a" id="open" >Ver Descripción</a> -->                
+            </article>
+            <article class="card">
+                <img src="./images/3recamaras/6 1.jpg" alt="department" class="card-img" id="open_1">
+                <br>
+                <p class="card-description">Modelo Carmina 3 recamaras ......  FALTA AGREGAR MAS DESCRFIPCIÓN.........</p>
+                
+            </article>
+        </section>
+
+        <section class="promotion">
+            <h3 class="promotion-h1">" Grandes beneficios de tener tu casa.</h3>
+            <p class="promotion-p">Si ya decidiste dar ese importante paso para adquirir tu nuevo hogar, entonces llegaste al lugar ideal, ya que tenemos una increíble oferta de CASAS en preventa y de entrega inmediata ".
+            </p>            
+        </section>
+
+
+        <section class="service-container">
+            <article class="card-service">
+                <img src="./images/house_small.png" alt="department" class="card-service-img">
+                <br>
+                <h5>Seguridad</h5>
+                <p>Acceso controlado Circuito cerrado Vigilancia 24H</p>  
+                
+            </article>
+            <article class="card-service">
+                <img src="./images/location.png" alt="department" class="card-service-img">
+                <br>
+                <h5>Movilidad</h5>
+                <p>Las mejores ubicaciones en León Guanajuato</p>
+                <p>Cercanos a Vialidades importantes </p>
+                
+                
+            </article>
+
+            <!-- <article class="card-service">
+                <img src="./images/house.png" alt="department" class="card-service-img">
+                <br>
+                <h5>Tu Casa</h5>
+                <p>2 a 3 Recámaras</p>
+                <p>Desde $2,135,177 hasta $5,692,914 </p>
+                <p>Desde 60 m2 hasta 186 m2</p>
+                
+            </article> -->
+        </section>
+
+        <section class="message-text">
+            <h6>Enamórate de los espacios</h6>
+            <h6>Nuestras Casas en Preventa y Entrega inmediata en León Guanajuato tienen para ti y tu familia.
+            </h6>
+        </section>
+
+        <section class="payments">
+            <p>Trabajamos con las principales instituciones financieras del país:</p>
+            <div class="payments-images" >
+                <img src="./images/bancomer.png" alt="" class="payments-img">
+                <img src="./images/caja_popular.png" alt="" class="payments-img">
+                <!-- <img src="./images/Citibanamex-logo.png" alt="" class="payments-img"> -->
+            </div>
+            
+        </section>
+
+
+        <!-- ****************** modal *************-->
+
+        <div class="modal-container " id="modal_container">
+            <div class="swiper mySwiper">
+                
+                <div class="swiper-wrapper">
+                
+                  <div class="swiper-slide"><img src="./images/carmina_2_recamaras/1.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/carmina_2_recamaras/2.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/carmina_2_recamaras/3.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/carmina_2_recamaras/4.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/carmina_2_recamaras/5.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/carmina_2_recamaras/6.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/carmina_2_recamaras/7.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/carmina_2_recamaras/8.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/carmina_2_recamaras/9.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/carmina_2_recamaras/10.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/carmina_2_recamaras/11.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/carmina_2_recamaras/12.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/carmina_2_recamaras/13.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/carmina_2_recamaras/14.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/carmina_2_recamaras/15.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/carmina_2_recamaras/16.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/carmina_2_recamaras/17.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/carmina_2_recamaras/18.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/carmina_2_recamaras/19.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/carmina_2_recamaras/20.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/carmina_2_recamaras/21.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/carmina_2_recamaras/22.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/carmina_2_recamaras/23.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/carmina_2_recamaras/24.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="./images/carmina_2_recamaras/25.jpg" alt=""></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                
+            </div>
+            
+            <button class="close_1" id="close">Cerrar</button>
+                      
+        </div>
+
+        <div class="modal-container_1 " id="modal_container_1">
+            <div class="swiper mySwiper">
+                
+                <div class="swiper-wrapper">
+                
+                    <div class="swiper-slide"><img src="./images/3recamaras/4 1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/3recamaras/5 1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/3recamaras/6 1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/3recamaras/7 1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/3recamaras/8 1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/3recamaras/9 1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/3recamaras/10 1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/3recamaras/11 1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/3recamaras/12 1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/3recamaras/15 1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/3recamaras/14 1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/3recamaras/16 1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/3recamaras/17 1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/3recamaras/18 1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/3recamaras/19 1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/3recamaras/20 1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/3recamaras/21 1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/3recamaras/22 1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/3recamaras/23 1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/3recamaras/24 1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/3recamaras/25 1.jpg" alt=""></div>
+                    
+                    
+                  
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                
+            </div> 
+            <button class="close_1" id="close_1">Cerrar</button>            
+
+        </div>
+
+
+
+
+
+        <!-- ****************** modal *************-->
+
+        <section class="advisory">
+            <p>Comprar departamento en León con crédito hipotecario </p>
+            <br>
+            <h5> ¡Es muy fácil, te asesoramos y guiamos!</h5>
+            <br>
+
+            <!-- <p>Si ya te encuentras en el proceso para adquirir tu casa o departamento pero te falta el Crédito Hipotecario para alcanzar tu objetivo, E&C INMOBILIARIA en alianza con HOUSING KREDIT (CREDITARIA) haremos que tu sueño se convierta en realidad brindándote toda la orientación y asesoría que te permitirá acceder al mejor Crédito Hipotecario justo para TI.</p> -->
+
+        </section>
+
+
+
+    </main>
+    
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./funcion.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+</body>
+</html>

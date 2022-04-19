@@ -1,0 +1,174 @@
+
+
+.ul {
+    display: flex;
+    flex-direction: row;
+      
+}
+
+.logo {
+    width: 200px;
+    margin-left: 22%;
+    margin-top: 10px;
+}
+
+.ul li{
+    list-style: none;
+}
+.paragraph{
+    width: 750px;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.pc-version{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.section-title{
+    width: 80%;
+    margin-left: 5%;
+}
+
+.titlte-h1{
+    text-align: center;
+    margin-right: 20%;
+    font-size: 2.5rem;
+}
+
+.subtitle-p{
+    text-align: center;
+    margin-right: 20%;
+    font-size: 1.5rem;
+}
+
+.section-title-img{
+    width: 80%;    
+    box-shadow: 7px 13px 37px #000;
+    border-radius: 4px;
+    /* background: fixed;
+    background-size: cover; */
+    
+}
+
+.form {
+    margin-top: 20px;
+    margin-right: 5%;
+    
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.swiper {
+    width: 80%;
+    height: 80%; /* cambiar pc*/
+  }
+
+  .swiper-wrapper{
+    margin: 0 auto;
+  }
+
+  .swiper-slide {
+    
+    
+    background: #CDCDCD;
+    
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center; 
+    align-items: center; 
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+
+  .close_1 {
+    width: 5%; /* editar a pc */
+    font-size: 1.5rem; /* editar a pc */
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 5px;      
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #214786;
+    color: #fff;
+}
+
+.card-description{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.promotion{
+    height: 100%;
+}
+.promotion-h1{
+    font-size: 3rem;
+}
+
+.promotion-p{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.service-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.service-container h5{
+    font-size: 2.5rem;
+}
+
+.service-container p{
+    font-size: 1.5rem;
+}
+
+.message-text h6{
+    font-size: 2.5rem;
+}
+
+.payments P {
+    font-size: 2.5REM;
+}
+
+.payments-images{
+    display: flex;
+    flex-direction: row;
+    
+    width: 500px;
+    height: 250px;
+}
+
+.advisory p {
+    font-size: 1.5rem;
+}
+
+.advisory h5 {
+    font-size: 1.5rem;
+}
+
